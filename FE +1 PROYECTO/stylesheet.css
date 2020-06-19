@@ -1,0 +1,47 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+background: lightgray;
+font-family: Arial, Helvetica, sans-serif;
+}
+#container{
+	width: 100%;
+	margin: 0px auto;
+	border: 1px solid black;
+
+}
+header{
+	background: black;
+	height: 150px;
+	width: 100%;
+	text-align: center;
+}
+#content{
+	float:left;
+	width: calc(70% - 80px);
+	min-height: 300px;
+	padding: 40px;
+}
+.article{
+	font-size: 21px;
+}
+aside{
+	float: left;
+	width: 20%;
+	min-height: 300px;
+}
+footer{
+	background: black;
+	color: lightyellow;
+	text-align: center;
+	height: 50px;
+	line-height: 50px
+}
+#fotos{
+	text-align: center;
+}
+.clearfix{
+	clear:both;
+}
